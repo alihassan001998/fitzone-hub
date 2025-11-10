@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='membership.css') }}">
+</head>
+<body>
+    <div>
+  <nav>
+        <h1>FitZone Hub</h1>
+        <ul>
+            <li><a href="{{ url_for('home') }}">HOME</a></li>
+            <li><a href="{{ url_for('about') }}">ABOUT US</a></li>
+            <li><a href="{{ url_for('membership') }}">MEMBERSHIP</a></li>
+        </ul>
+  </nav>
+  <div class="membership-container">
+
+    <h1>Membership Plans</h1>
+
+    <div class="plans">
+        <div class="plan-card basic">
+            <h2>Basic</h2>
+            <p>Start your fitness journey</p>
+            <ul>
+                <li>Gym Access</li>
+                <li>1 Personal Session</li>
+                <li>Locker Facility</li>
+            </ul>
+            <h3>PKR 3,000</h3>
+            <button>Join Now</button>
+        </div>
+
+        <div class="plan-card standard">
+            <h2>Standard</h2>
+            <p>Regular training with guidance</p>
+            <ul>
+                <li>All Gym Areas</li>
+                <li>Weekly Personal Training</li>
+                <li>Nutrition Tips</li>
+            </ul>
+            <h3>PKR 5,000</h3>
+            <button>Join Now</button>
+        </div>
+
+        <div class="plan-card premium">
+            <h2>Premium</h2>
+            <p>Ultimate fitness experience</p>
+            <ul>
+                <li>Unlimited Access</li>
+                <li>Personal Coach</li>
+                <li>Diet & Progress Tracking</li>
+            </ul>
+            <h3>PKR 8,000</h3>
+            <button>Join Now</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

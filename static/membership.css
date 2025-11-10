@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../static/images/membership.avif");
+    background-size: 100%;
+    color: white;
+    font-family: 'Mulish',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+nav h1{
+    font-size: 50px;
+    margin-right: 40%;
+    font-family: 'Lato',sans-serif;
+    color: white;
+    cursor: pointer;
+}
+nav h1:hover{
+    color: #fff200; /* brighter on hover */
+    text-shadow: 
+        0 0 5px #faee00,
+        0 0 10px #eae028,
+        0 0 15px #edc731,
+        0 0 20px #efcd45;
+    transform: scale(1.05); /* thoda zoom */
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+    color: white;
+}
+ul li a:hover{
+    border-bottom: 3px solid yellow;
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 26px;
+}
+.membership-container {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membership-container h1 {
+    font-size: 50px;
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    width: 300px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.plan-card.basic {
+    background: linear-gradient(135deg, #444, #666);
+}
+
+.plan-card.standard {
+    background: linear-gradient(135deg, #555, #888);
+}
+
+.plan-card.premium {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #111;
+}
+
+.plan-card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.plan-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.plan-card ul li {
+    margin: 8px 0;
+}
+
+.plan-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.plan-card button {
+    background: #FFD700;
+    color: #111;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.plan-card button:hover {
+    background: #FFA500;
+    transform: scale(1.05);
+}
+
+.plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}

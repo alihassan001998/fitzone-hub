@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../static/images/home.jpg");
+    background-size: 100%;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+nav h1{
+    font-size: 50px;
+    margin-right: 40%;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+nav h1:hover{
+    color: #fff200; /* brighter on hover */
+    text-shadow: 
+        0 0 5px #faee00,
+        0 0 10px #eae028,
+        0 0 15px #edc731,
+        0 0 20px #efcd45;
+    transform: scale(1.05); /* thoda zoom */
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+    color: white;
+}
+ul li a:hover{
+    border-bottom: 3px solid yellow;
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 26px;
+}
+.text{
+    margin-left: 6px;
+    margin-top: 40px;
+}
+.text h2{
+    font-size: 95px;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.text p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+button{
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 15%;
+    border: none;
+    background-color: rgb(204, 0, 0);
+    height: 50px;
+    width: 170px;
+    color: white;
+}
+button:hover{
+    border: 3px solid white;
+    background-color: rgb(235, 46, 46);
+    cursor: pointer;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../static/images/about.avif");
+    background-size: 100%;
+    color: white;
+    font-family: 'Mulish',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+nav h1{
+    font-size: 50px;
+    margin-right: 40%;
+    font-family: 'Lato',sans-serif;
+    cursor: pointer;
+}
+nav h1:hover{
+    color: #fff200; /* brighter on hover */
+    text-shadow: 
+        0 0 5px #faee00,
+        0 0 10px #eae028,
+        0 0 15px #edc731,
+        0 0 20px #efcd45;
+    transform: scale(1.05); /* thoda zoom */
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+    color: white;
+}
+ul li a:hover{
+    border-bottom: 3px solid yellow;
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 26px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* ya jo bhi background use kar raha hai */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.about-container {
+    margin-top: 40px; /* navbar ke niche gap */
+    text-align: center;
+    color: white;
+    width: 90%; /* thoda side space for better look */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px; /* niche space for screenshot view */
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.about-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffcc00;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.about-section:hover h2 {
+    color: #fff;
+    text-shadow: 0 0 10px #ffcc00;
+}
+
+
+
+

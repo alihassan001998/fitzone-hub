@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+  <nav>
+        <h1>FitZone Hub</h1>
+        <ul>
+            <li><a href="{{ url_for('home') }}">HOME</a></li>
+            <li><a href="{{ url_for('about') }}">ABOUT US</a></li>
+            <li><a href="{{ url_for('membership') }}">MEMBERSHIP</a></li>
+        </ul>
+  </nav>
+  <div class="about-container">
+
+    <section class="about-section">
+        <h2>Our Mission</h2>
+        <p>
+            At <strong>FitZone Hub</strong>, our mission is to inspire and support people in achieving
+            their fitness goals. We believe fitness is more than just working out — it’s a lifestyle.
+            Our goal is to build a community where everyone feels motivated, confident, and strong.
+        </p>
+    </section>
+
+    <section class="about-section">
+        <h2>Our Team</h2>
+        <p>
+            Our team is made up of certified trainers and friendly staff who are passionate about health
+            and wellness. Each trainer is dedicated to helping you with personalized plans, nutrition
+            guidance, and ongoing support to make sure you stay on track every step of the way.
+        </p>
+    </section>
+
+    <section class="about-section">
+        <h2>Our Facilities</h2>
+        <p>
+            FitZone Hub offers state-of-the-art gym equipment, a clean environment, air-conditioned
+            workout zones, and spacious locker rooms. We also provide group fitness classes, cardio areas,
+            and a protein bar to keep you energized during your workout journey.
+        </p>
+    </section>
+</div>
+</body>
+</html>
